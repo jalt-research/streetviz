@@ -1,0 +1,20 @@
+// plotting job description file
+OUTPUT=./map.png
+BEARINGS=./bearings.png
+
+// network query
+CENTER=51.050407,13.73762	// center
+RADIUS=4000		// center-side distance
+NETWORK_TYPE=all	// streets, bike and foot paths
+CRS=ESRI:102003
+
+// plot characteristics
+INCHES=8		// side length (100dpi)
+LEGEND=0		// include event legend
+SCALE=0			// include distance scale
+
+// visuals
+STREET_COLORS=autumn	// street colormap
+//STREET_COLOR=yellow	// (Alternately: street color)
+BACKGROUND_COLOR=#c00 	// background color
+STREET_WIDTH=2		// street line width
