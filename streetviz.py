@@ -74,6 +74,7 @@ class Map():
         self.figsize=5
         self.street_width=2
         for pair in pairs: self.setVal(pair)
+        f.close()
         
     def setVal(self,pair):
         if pair[0] == 'OUTPUT': self.file_out=pair[1]
